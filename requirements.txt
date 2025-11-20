@@ -1,0 +1,9 @@
+torch
+torchvision
+diffusers>=0.30
+transformers
+accelerate
+pillow
+matplotlib
+scikit-image
+torchmetrics[image]
