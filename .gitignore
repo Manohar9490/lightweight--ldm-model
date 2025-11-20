@@ -1,1 +1,5 @@
 .venv
+data/
+*.tar.gz
+*.zip
+*.pt
