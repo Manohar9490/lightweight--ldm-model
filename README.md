@@ -1,6 +1,5 @@
 # 32x32 CIFAR-10 VAE vs Diffusion (DDPM) Project
 
-
 This project contains:
 
 - A **Variational Autoencoder (VAE)** trained on CIFAR-10 (32x32)
@@ -12,7 +11,6 @@ Both are evaluated with:
 - **SSIM** (Structural Similarity)
 - **PSNR** (Peak Signal-to-Noise Ratio)
 - **Sec_per_img** (seconds per image)
-
 
 Things which this project will perform:
 
@@ -27,9 +25,7 @@ Things which this project will perform:
   - Measure Sec_per_img
   - Save a grid of samples in `results/diffusion/`
 
-```text
-Model,FID,SSIM,PSNR,Sec_per_img
-VAE,xx.xxxx,yy.yyyy,zz.zzzz,ss.ssss
-DDPM,aa.aaaa,,,bb.bbbb
-```
-
+| Model | FID      | SSIM   | PSNR    | Sec/img |
+| ----- | -------- | ------ | ------- | ------- |
+| VAE   | 344.1850 | 0.4095 | 17.8563 | 0.1547  |
+| DDPM  | 56.0240  |        |         | 56.3042 |
